@@ -66,7 +66,7 @@ me.say_hi()
 - 🏫 Leading IT at a private school
 - 🐳 Deploying open-source with Docker
 - 🤖 AI and ML enthusiast
-- 🏠 Home automation aficionado
+- 🏠 Home automation amateur
 - 📚 Lifelong learner in tech
 
 ## 📊 GitHub Stats
