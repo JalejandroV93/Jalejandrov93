@@ -96,6 +96,7 @@ me.say_hi()
 </div>
 <!--START_SECTION:waka-->
 
+![JalejandroV93 GitHub stats](https://github-readme-stats.vercel.app/api?username=JalejandroV26&show_icons=true&theme=radical)
 
 <!--END_SECTION:waka-->
 
