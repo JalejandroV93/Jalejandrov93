@@ -10,7 +10,11 @@ jobs:
     name: WakaReadme DevMetrics
     runs-on: ubuntu-latest
     steps:
-      - uses: athul/waka-readme@master
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Update README with WakaTime Metrics
+        uses: athul/waka-readme@master
         with:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
@@ -27,9 +31,9 @@ jobs:
           STOP_AT_OTHER: true
           IGNORED_LANGUAGES: "YAML JSON TOML"
           COMMIT_MESSAGE: "Updated waka-readme graph with new metrics"
-          TARGET_BRANCH: master
+          TARGET_BRANCH: main
           TARGET_PATH: README.md
           COMMITTER_NAME: GitHubActionBot
           COMMITTER_EMAIL: action-bot@github.com
-          AUTHOR_NAME: Jalejandrov93
+          AUTHOR_NAME: JalejandroV93
           AUTHOR_EMAIL: javam2639@gmail.com
