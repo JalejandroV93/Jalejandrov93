@@ -12,41 +12,55 @@
 
 ## 🚀 About Me
 
-\`\`\`python
-class JhonAlejandro:
-    def __init__(self):
-        self.name = "Jhon Alejandro Vasquez"
-        self.role = "IT Department Lead @ Private School"
-        self.location = "🌎 Passionate about global tech innovation"
-        self.current_focus = [
-            "Deploying open-source projects with Docker 🐳",
-            "Building scalable web applications",
-            "Exploring AI/ML possibilities"
-        ]
-        self.learning_now = ["FastAPI", "Express.js", "Vue.js", "Advanced Docker"]
-        self.interests = [
-            "Artificial Intelligence & Machine Learning 🤖",
-            "Home Automation & IoT 🏠",
-            "Cloud Architecture ☁️",
-            "Open Source Contribution 🌟"
-        ]
-        self.life_motto = "Learning everything tech, one commit at a time! 💻"
+```typescript
+interface Developer {
+  name: string;
+  role: string;
+  location: string;
+  currentFocus: string[];
+  learningNow: string[];
+  interests: string[];
+  lifeMotto: string;
+  getDailyRoutine(): string[];
+  sayHello(): void;
+}
 
-    def get_daily_routine(self):
-        return [
-            "☕ Coffee first",
-            "💻 Code something awesome",
-            "📚 Learn new technologies",
-            "🤝 Help the community",
-            "🔄 Repeat"
-        ]
+class JhonAlejandro implements Developer {
+  name: string = "Jhon Alejandro Vasquez";
+  role: string = "IT Department Lead @ Private School";
+  location: string = "🌎 Passionate about global tech innovation";
+  currentFocus: string[] = [
+    "Deploying open-source projects with Docker 🐳",
+    "Building scalable web applications",
+    "Exploring AI/ML possibilities"
+  ];
+  learningNow: string[] = ["FastAPI", "Express.js", "Vue.js", "Advanced Docker"];
+  interests: string[] = [
+    "Artificial Intelligence & Machine Learning 🤖",
+    "Home Automation & IoT 🏠",
+    "Cloud Architecture ☁️",
+    "Open Source Contribution 🌟"
+  ];
+  lifeMotto: string = "Learning everything tech, one commit at a time! 💻";
 
-    def say_hello(self):
-        print("👋 Thanks for visiting! Let's build something amazing together!")
+  getDailyRoutine(): string[] {
+    return [
+      "☕ Coffee first",
+      "💻 Code something awesome",
+      "📚 Learn new technologies",
+      "🤝 Help the community",
+      "🔄 Repeat"
+    ];
+  }
 
-me = JhonAlejandro()
-me.say_hello()
-\`\`\`
+  sayHello(): void {
+    console.log("👋 Thanks for visiting! Let's build something amazing together!");
+  }
+}
+
+const me: JhonAlejandro = new JhonAlejandro();
+me.sayHello();
+```
 
 ---
 
@@ -107,7 +121,7 @@ me.say_hello()
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=JalejandroV93&theme=tokyonight" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=JalejandroV93&theme=tokyo-night" alt="GitHub Streak" />
 </div>
 
 <div align="center">
