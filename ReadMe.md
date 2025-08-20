@@ -124,9 +124,6 @@ me.sayHello();
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=JalejandroV93&theme=tokyo-night" alt="GitHub Streak" />
 </div>
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=JalejandroV93&theme=tokyo-night&hide_border=true" alt="Contribution Graph" />
-</div>
 
 ---
 
@@ -134,12 +131,11 @@ me.sayHello();
 
 <div align="center">
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=JalejandroV93&repo=your-featured-repo-1&theme=tokyonight)](https://github.com/JalejandroV93/your-featured-repo-1)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=JalejandroV93&repo=your-featured-repo-2&theme=tokyonight)](https://github.com/JalejandroV93/your-featured-repo-2)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=JalejandroV93&repo=artemisa_study_plan_management&theme=tokyonight)](https://github.com/JalejandroV93/artemisa_study_plan_management)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=JalejandroV93&repo=student_tracking&theme=tokyonight)](https://github.com/JalejandroV93/student_tracking)
 
 </div>
 
-> 💡 **Note**: Replace `your-featured-repo-1` and `your-featured-repo-2` with your actual repository names to showcase your best work!
 
 ---
 
@@ -195,10 +191,6 @@ me.sayHello();
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=JalejandroV93&theme=tokyonight" alt="Profile Summary" />
 </div>
 
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=JalejandroV93&theme=tokyonight" alt="Repos per Language" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=JalejandroV93&theme=tokyonight" alt="Most Commit Language" />
-</div>
 
 ---
 
@@ -235,17 +227,6 @@ I'm always excited to collaborate on:
 </div>
 
 ---
-
-## 💖 Support My Work
-
-<div align="center">
-
-If you find my projects helpful or inspiring, consider supporting my work:
-
-[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/@JhonVasquez93)
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/jalejandrov93)
-
-**⭐ Star my repositories if you find them useful!**
 
 </div>
 
